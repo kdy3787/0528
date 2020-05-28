@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>김도유 홈페이지</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: rgba(96, 174, 191, 1);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    a:visited {
+        color: violet;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .xxxlarge:first-letter {
+color:violet;
+    }
+    .smallbox {  
+    padding:5px;
+    background-color: rgba(162, 218, 222, 1);
+    border:4px rgba(35, 48, 59, 1);
+    border-style:solid;
+    margin-bottom:10px;
+    font-family:sans-serif;
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">Interests</a> <br>
+                <a href="#edu">Game</a> <br>
+                <a href="#works">Education</a> <br>
+                <a href="#con">Contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my world of work & life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>김도유 </b></h1>
+            <h1 class="xxxlarge colorname" id="interests"><b>Interests</b></h1>
+            <hr style="width:40%; border:5px solid rgba(27, 60, 89, 1); float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="bio1.jpg" style="width:80%" alt="바이오하자드">
+                <img src="doom3.jpg" style="width:80%" alt="둠3">
+                <img src="타르코프.jpg" style="width:80%" alt="타르코프">
+            </div>
+
+            <div class="half">
+                <img src="레인보우2.jpg" style="width:80%" alt="레식">
+                <img src="오버워치.jpg" style="width:80%" alt="오버워치">
+                <img src="bio.jpg" style="width:80%" alt="바이오하자드">
+            </div>
+        </div>
+
+        <!-- 취미 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>Game</b></h1>
+            <hr style="width:40%; border:5px solid rgba(27, 60, 89, 1); float: left; clear: both; "> <br>
+            <p>게임을 좋아하는데 그중 특히 FPS 게임을 좋아합니다.</p>
+            <p> 오버워치, 이스케이프 프롬 타르코프, 레인보우 식스 시즈가 대표적으로 즐겼던 FPS 게임입니다.
+                FPS를 좋아하는 동성 친구는 드문데 일년 전부터 같이 할 친구가 생겨 같이 즐기고 있습니다^^
+            </p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>Works</b></h1>
+            <hr style="width:40%; border:5px solid rgba(27, 60, 89, 1); float: left; clear: both; "> <br>
+            <p> 지금까지의 공부 현황입니다.</p>
+            <p> 파이썬과 통계학으로 고생하고 있습니다. 수학을 싫어해서 최대한 멀리했는데 이렇게 가까이 지내게 될 줄은 몰랐습니다.
+                기말고사를 대비하기 위해서 복습을 위주로 공부하고 있습니다.
+            </p>
+            <p><b>제 학점은 기말부터 시작입니다.(당당)</b></p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>Contact</b></h1>
+            <hr style="width:40%; border:5px solid rgba(27, 60, 89, 1); float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-1234-5678</li>
+                <li><a href="mailto:contactme@gmail.com">ContactMe@gmail.com</a></li> <br>
+                <div calss="smallbox">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                </div>
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 김도유 </p>
+
+                </footer>
+</body>
+</html>
